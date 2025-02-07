@@ -2,10 +2,19 @@
   "name": "@mtane0412/perspective-mcp-server",
   "version": "0.1.0",
   "description": "A Model Context Protocol (MCP) server that provides tools for interacting with Perspective API",
-  "private": true,
+  "homepage": "https://github.com/mtane0412/perspective-mcp-server#readme",
+  "bugs": {
+    "url": "https://github.com/mtane0412/perspective-mcp-server/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mtane0412/perspective-mcp-server.git"
+  },
+  "license": "MIT",
+  "author": "mtane0412",
   "type": "module",
   "bin": {
-    "Perspective MCP Server": "./build/index.js"
+    "Perspective MCP Server": "build/index.js"
   },
   "files": [
     "build"
